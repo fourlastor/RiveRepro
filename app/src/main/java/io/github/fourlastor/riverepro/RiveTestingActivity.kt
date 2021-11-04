@@ -9,8 +9,6 @@ import io.github.fourlastor.riverepro.databinding.ActivityRiveTestingBinding
 class RiveTestingActivity : AppCompatActivity() {
 
   private lateinit var binding: ActivityRiveTestingBinding
-  private var currentAnimationIndex: Int? = null
-
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
